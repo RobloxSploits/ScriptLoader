@@ -55,5 +55,5 @@ local Other = Window:NewTab("Other")
 local OtherSection = Other:NewSection("Other")
 
 OtherSection:NewButton("Chat Spoofer", "Tricks Chat", function()
-    loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'))
+    loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
 end)
